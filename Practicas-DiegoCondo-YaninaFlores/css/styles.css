@@ -1,6 +1,8 @@
 .bg-azul {
   background-color: #065299;
+  color: white;
 }
+
 hr {
   background-color: aliceblue;
 }
@@ -8,9 +10,11 @@ hr {
 .tittle1 {
   color: rgb(97, 226, 187);
 }
+
 .tittle2 {
   color: rgb(207, 30, 104);
 }
+
 .tittle3 {
   color: rgb(230, 180, 89);
 }
@@ -20,10 +24,34 @@ hr {
     "Lucida Sans", Arial, sans-serif;
 }
 
-.letra2{
-    font-family: monospace;
+.letra2 {
+  font-family: monospace;
 }
 
-.letra3{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.letra3 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.justificar {
+  text-align: justify;
+}
+
+.texto-izquierda {
+  text-align: left;
+}
+
+.texto-centro {
+  text-align: center;
+}
+
+.parrafo{
+  font-size: 14px;
+}
+.text-1{
+  font-size: 20px;
+}
+
+mark{
+  background-color: #065299;
+  color: white;
 }
