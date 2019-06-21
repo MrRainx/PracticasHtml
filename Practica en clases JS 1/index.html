@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Practica JS 1</title>
+</head>
+
+<body>
+
+
+
+
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-12 text-center">
+                <button class="" id="btnMover">Mover</button>
+            </div>
+            <div class="contenedor mt-5">
+                <div id="animate"></div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+
+        <button id="btnPrueba" onclick="pruebaBtn()">
+            Enviar
+        </button>
+
+
+        <script>
+            function pruebaBtn() {
+
+                const texto = document.getElementById("btnPrueba").textContent;
+                //console.log("5" + 5 + 6);
+
+                console.log(5 + 2 + "5");
+
+                var numero = 5;
+                var numeroString = "5";
+                if (numero === numeroString) {
+                    console.log('MISMO TIPO')
+                } else {
+                    console.log("NO ES EL MISMO TIPO");
+                }
+
+                if (numeroString == "5") {
+                    console.log("SI ES IGUAL")
+                }
+
+                objeto = {
+                    nombre: "Diego",
+                    apellido: "Condo"
+                }
+                console.log(objeto);
+                console.log(objeto.nombre + " " + objeto.apellido);
+
+                class Persona {
+                    constructor(nombre, apellido) {
+                        this.nombre = nombre;
+                        this.apellido = apellido;
+                    }
+                    getNombre(){
+                        return this.nombre;
+                    }
+                }
+                const persona = new Persona();
+                persona.nombre = "Diego";
+                persona.apellido = "Condo";
+                console.log(persona)
+
+
+
+            }
+
+
+        </script>
+
+
+        <script src="js/animation.js"></script>
+    </footer>
+
+
+</body>
+
+</html>
