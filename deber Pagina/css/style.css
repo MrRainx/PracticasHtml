@@ -1,0 +1,47 @@
+body {
+
+    /* Ubicación de la imagen */
+    background-image: url(../img/background.jpg);
+
+    /* Para dejar la imagen de fondo centrada, vertical y
+    
+    horizontalmente */
+
+    background-position: center center;
+
+    /* Para que la imagen de fondo no se repita */
+
+    background-repeat: no-repeat;
+
+    /* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+
+    background-attachment: fixed;
+
+    /* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+
+    background-size: cover;
+}
+
+.mt-100{
+    margin-top: 100px;
+}
+
+.bg-black{
+    background-color: #173455b6;
+    color: white
+}
+
+div ul li a:hover {
+    background-color:darkcyan;
+ 
+}
+div ul li a:active{
+    background-color: brown;
+}
+
+div ul li a:hover :is :active{
+    background-color: #173455b6
+}
+
+
+
