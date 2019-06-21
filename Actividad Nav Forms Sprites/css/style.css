@@ -1,0 +1,36 @@
+body {
+    /* Ubicación de la imagen */
+    background-image: url(https://i2.wp.com/www.epicheroes.com/wp-content/uploads/2018/07/marvel-wallpaper-hd-gennerations.jpg?ssl=1);
+    /* Para dejar la imagen de fondo centrada, vertical y
+    
+    horizontalmente */
+    background-position: center center;
+    /* Para que la imagen de fondo no se repita */
+    background-repeat: no-repeat;
+    /* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+    background-attachment: fixed;
+    /* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+    background-size: cover;
+}
+
+.mt-56 {
+    margin-top: 56px;
+}
+
+.bg-black {
+    background-color: #173455b6;
+    color: white
+}
+
+div ul li a:hover {
+    background-color: darkcyan;
+}
+
+.hover:hover {
+    background-color: darkcyan;
+    color: white
+}
+
+i{
+    padding-inline-end: 10px;
+}
