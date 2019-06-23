@@ -11,11 +11,13 @@ function mover() {
 
                 clearInterval(id);
 
+
                 id = setInterval(() => {
 
                     if (pos == 0) {
 
                         clearInterval(id);
+
                     } else {
 
                         pos--;
@@ -24,8 +26,12 @@ function mover() {
                     }
 
                 }, 5);
+
+
+
+
             } else {
-                
+
                 pos++;
                 elem.style.top = pos + "px";
                 elem.style.left = pos + "px";

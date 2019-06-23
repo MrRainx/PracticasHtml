@@ -32,61 +32,6 @@
     </div>
 
     <footer>
-
-        <button id="btnPrueba" onclick="pruebaBtn()">
-            Enviar
-        </button>
-
-
-        <script>
-            function pruebaBtn() {
-
-                const texto = document.getElementById("btnPrueba").textContent;
-                //console.log("5" + 5 + 6);
-
-                console.log(5 + 2 + "5");
-
-                var numero = 5;
-                var numeroString = "5";
-                if (numero === numeroString) {
-                    console.log('MISMO TIPO')
-                } else {
-                    console.log("NO ES EL MISMO TIPO");
-                }
-
-                if (numeroString == "5") {
-                    console.log("SI ES IGUAL")
-                }
-
-                objeto = {
-                    nombre: "Diego",
-                    apellido: "Condo"
-                }
-                console.log(objeto);
-                console.log(objeto.nombre + " " + objeto.apellido);
-
-                class Persona {
-                    constructor(nombre, apellido) {
-                        this.nombre = nombre;
-                        this.apellido = apellido;
-                    }
-                    getNombre(){
-                        return this.nombre;
-                    }
-                }
-                const persona = new Persona();
-                persona.nombre = "Diego";
-                persona.apellido = "Condo";
-                console.log(persona)
-
-
-
-            }
-
-
-        </script>
-
-
         <script src="js/animation.js"></script>
     </footer>
 

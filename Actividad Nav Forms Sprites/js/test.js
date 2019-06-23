@@ -20,6 +20,8 @@ function enviarForm() {
         cellNombres.innerHTML = nombres;
         cellApellidos.innerHTML = apellidos;
     });
+
+
 }
 
 enviarForm();
