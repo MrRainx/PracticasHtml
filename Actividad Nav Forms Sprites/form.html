@@ -26,13 +26,36 @@
 
             <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navDropGaleria" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fas fa-image"></i>Galeria
+                        </a>
+                        <div class="dropdown-menu text-center" aria-labelledby="navDropGaleria">
+                            <a class="dropdown-item hover" href="galeria.html">
+                                <i class="fas fa-image fa-2x"></i>
+                                Imagenes
+                            </a>
+                            <a class="dropdown-item hover" href="videos.html">
+                                <i class="fas fa-file-video fa-2x"></i>
+                                Trailers
+                            </a>
+
+                        </div>
+                    </li>
+                    <!--DROPDOWN GALERIA-->
                     <li class="nav-item">
                         <a class="nav-link" href="form.html"><i class="fas fa-file-invoice"></i>Contactanos</a>
                     </li>
+                    <!--DIV CONTACTANOS-->
+                    <li class="nav-item">
+                        <a class="nav-link" href="horarios.html"><i class="fas fa-file-invoice"></i>Horarios</a>
+                    </li>
+                    <!--DIV HORARIOS-->
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Redes
+                            <i class="fas fa-network-wired"></i>Redes
                         </a>
                         <div class="dropdown-menu text-center" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item hover" target="_blank"
@@ -51,123 +74,122 @@
                             </a>
                         </div>
                     </li>
+                    <!--DROPDOWN REDES-->
                 </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
             </div>
         </nav>
     </header>
 
 
-    <div class="container bg-black py-5 mt-100 text-dark text-center ">
-        <h1 class="display-3 text-white">Contactanos</h1>
+    <div class="container bg-black py-5 mt-100 text-center">
 
-        <form class="text-white mt-5">
+        <div class="row">
 
-            <div class="form-group row justify-content-center">
-                <label for="staticEmail" class="col-2 col-form-label">Email:</label>
-                <div class="col-sm-6">
-                    <input class="form-control" type="email" placeholder="Email" id="email">
-                </div>
-            </div>
-            <!--DIV EMAIL-->
+            <div class="col-lg-6">
+                <h1 class="display-4 text-white">Contactanos</h1>
 
-            <div class="form-group row justify-content-center">
-                <label class="col-2 col-form-label" for="">Nombres:</label>
-                <div class="col-sm-6">
-                    <input class="form-control" type="text" placeholder="Nombres" id="nombres">
-                </div>
-            </div>
-            <!--DIV NOMBRES-->
+                <form class="text-white mt-5">
 
-            <div class="form-group row justify-content-center">
-                <label class="col-2 col-form-label" for="">Apellidos:</label>
-                <div class="col-sm-6">
-                    <input class="form-control" type="text" placeholder="Apellidos" id="apellidos">
-                </div>
-            </div>
-            <!--DIV APELLIDOS-->
-
-            <div class="form-group row justify-content-center">
-                <label class="col-2 col-form-label" for="">Edad:</label>
-                <div class="col-sm-6">
-                    <input class="form-control" type="number" min="3" max="120" placeholder="Edad">
-                </div>
-            </div>
-            <!--DIV EDAD-->
-
-            <div class="form-group row justify-content-center">
-                <label class="col-2 col-form-label-sm " for="">¿Usted Prefiere?</label>
-                <div class="col-sm-6">
-                    <select class="form-control">
-                        <option>Peliculas</option>
-                        <option>Comics</option>
-                        <option>Series animadas</option>
-                    </select>
-                </div>
-            </div>
-            <!--COMBO BOX-->
-
-            <div class="form-group">
-
-                <label class="" for="">¿Que le parece las peliculas?</label>
-
-                <div class="">
-
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="grupo-radio-btn">
-                        <label class="form-check-label" for="inlineRadio1">Malas</label>
+                    <div class="form-group row justify-content-center">
+                        <label for="staticEmail" class="col-2 col-form-label">Email:</label>
+                        <div class="col-sm-6">
+                            <input class="form-control" type="email" placeholder="Email" id="email">
+                        </div>
                     </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="grupo-radio-btn" id="inlineRadio2"
-                            value="option2">
-                        <label class="form-check-label" for="inlineRadio2">Regulares</label>
+                    <!--DIV EMAIL-->
+
+                    <div class="form-group row justify-content-center">
+                        <label class="col-2 col-form-label" for="">Nombres:</label>
+                        <div class="col-sm-6">
+                            <input class="form-control" type="text" placeholder="Nombres" id="nombres">
+                        </div>
                     </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="grupo-radio-btn" id="inlineRadio2"
-                            value="option2">
-                        <label class="form-check-label" for="inlineRadio2">Buenas</label>
+                    <!--DIV NOMBRES-->
+
+                    <div class="form-group row justify-content-center">
+                        <label class="col-2 col-form-label" for="">Apellidos:</label>
+                        <div class="col-sm-6">
+                            <input class="form-control" type="text" placeholder="Apellidos" id="apellidos">
+                        </div>
                     </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="grupo-radio-btn" id="inlineRadio2"
-                            value="option2">
-                        <label class="form-check-label" for="inlineRadio2">Excelentes</label>
+                    <!--DIV APELLIDOS-->
+
+                    <div class="form-group row justify-content-center">
+                        <label class="col-2 col-form-label" for="">Edad:</label>
+                        <div class="col-sm-6">
+                            <input class="form-control" type="number" min="3" max="120" placeholder="Edad">
+                        </div>
+                    </div>
+                    <!--DIV EDAD-->
+
+                    <div class="form-group row justify-content-center">
+                        <label class="col-2 col-form-label-sm " for="">¿Usted Prefiere?</label>
+                        <div class="col-sm-6">
+                            <select class="form-control">
+                                <option>Peliculas</option>
+                                <option>Comics</option>
+                                <option>Series animadas</option>
+                            </select>
+                        </div>
+                    </div>
+                    <!--COMBO BOX-->
+
+                    <div class="form-group">
+
+                        <label class="" for="">¿Que le parece las peliculas?</label>
+
+                        <div class="">
+
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="grupo-radio-btn">
+                                <label class="form-check-label" for="inlineRadio1">Malas</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="grupo-radio-btn" id="inlineRadio2"
+                                    value="option2">
+                                <label class="form-check-label" for="inlineRadio2">Regulares</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="grupo-radio-btn" id="inlineRadio2"
+                                    value="option2">
+                                <label class="form-check-label" for="inlineRadio2">Buenas</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="grupo-radio-btn" id="inlineRadio2"
+                                    value="option2">
+                                <label class="form-check-label" for="inlineRadio2">Excelentes</label>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--DIV RADIO BTNs-->
+
+
+
+                    <div class="form-group row justify-content-center">
+                        <label class="col-2 col-form-label" for="">Observaciones:</label>
+                        <div class="col-sm-6">
+                            <textarea class="form-control" name="" id="" cols="20" rows="5"
+                                placeholder="Observaciones"></textarea>
+                        </div>
+                    </div>
+                    <!--DIV Observaciones-->
+                    <div class="row justify-content-center">
+                        <div class="col-sm-8">
+                            <button class="btn btn-info hover px-5 btn-block " type="submit" id="btnEnviar">
+                                Enviar
+                            </button>
+                        </div>
                     </div>
 
-                </div>
-            </div>
-            <!--DIV RADIO BTNs-->
-
-
-
-            <div class="form-group row justify-content-center">
-                <label class="col-2 col-form-label" for="">Observaciones:</label>
-                <div class="col-sm-6">
-                    <textarea class="form-control" name="" id="" cols="20" rows="5"
-                        placeholder="Observaciones"></textarea>
-                </div>
-            </div>
-            <!--DIV Observaciones-->
-            <div class="row justify-content-center">
-                <div class="col-sm-8">
-                    <button class="btn btn-info hover px-5 btn-block " type="submit" id="btnEnviar">
-                        Enviar
-                    </button>
-                </div>
+                </form>
+                <!--FORM-->
             </div>
 
-        </form>
-        <!--FORM-->
-        <hr class="bg-white">
-        <div class="row text-white">
+            <div class="col-lg-6">
+                <h1 class="text-center display-4 ">Ultimos Comentarios</h1>
 
-            <h1 class="col-12 text-center">Ultimos Comentarios</h1>
-
-            <div class="col">
-
-                <table class="table">
+                <table class="table mt-5">
                     <thead class="thead-light">
                         <tr>
                             <th scope="col">#</th>
@@ -181,14 +203,9 @@
                     </tbody>
                 </table>
 
-
             </div>
-
-
         </div>
-        <!--ROW TABLE-->
-
-
+        <!--DIV COL TABLE-->
 
     </div>
     <!--DIV CONTAINER-->
@@ -200,7 +217,7 @@
         <script src="js/jquery.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/popper.js"></script>
-        <script src="js/test.js"></script>
+        <script src="js/form.js"></script>
     </footer>
 
 </body>

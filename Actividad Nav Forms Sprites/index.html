@@ -5,10 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="https://www.freeiconspng.com/uploads/avengers-icon-19.png">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>Index</title>
+    <title>Inicio</title>
 </head>
 
 <body>
@@ -28,13 +29,36 @@
 
             <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navDropGaleria" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fas fa-image"></i>Galeria
+                        </a>
+                        <div class="dropdown-menu text-center" aria-labelledby="navDropGaleria">
+                            <a class="dropdown-item hover" href="galeria.html">
+                                <i class="fas fa-image fa-2x"></i>
+                                Imagenes
+                            </a>
+                            <a class="dropdown-item hover" href="videos.html">
+                                <i class="fas fa-file-video fa-2x"></i>
+                                Trailers
+                            </a>
+
+                        </div>
+                    </li>
+                    <!--DROPDOWN GALERIA-->
                     <li class="nav-item">
                         <a class="nav-link" href="form.html"><i class="fas fa-file-invoice"></i>Contactanos</a>
                     </li>
+                    <!--DIV CONTACTANOS-->
+                    <li class="nav-item">
+                        <a class="nav-link" href="horarios.html"><i class="fas fa-file-invoice"></i>Horarios</a>
+                    </li>
+                    <!--DIV HORARIOS-->
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Redes
+                            <i class="fas fa-network-wired"></i>Redes
                         </a>
                         <div class="dropdown-menu text-center" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item hover" target="_blank"
@@ -53,14 +77,12 @@
                             </a>
                         </div>
                     </li>
+                    <!--DROPDOWN REDES-->
                 </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
             </div>
         </nav>
     </header>
+
 
     <div class="container-fluid bg-black py-5 mt-56 text-dark text-center">
         <h1 class="display-1 text-white">Galeria</h1>
@@ -70,7 +92,7 @@
             <div class="px-2 py-2 ">
                 <div class="card" style="width: 15rem; height: 29rem;">
                     <img class="card-img-top img-fluid"
-                        src="https://icdn2.crhoy.net/w/0/h/600/q/95/png/0/c/1/s/pull.crhoy.net/imagenes/2019/03/77830_big.jpg"
+                        src="https://terrigen-cdn-dev.marvel.com/content/prod/1x/spider-manfarfromhome_lob_crd_04_3.jpg"
                         alt="Card image cap">
                     <div class="card-body">
                         <p class="card-text text-truncate">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
@@ -348,26 +370,42 @@
 
     </div>
     <!--DIV CONTAINER-->
-
-
-
-
     <footer>
-        
-        
-        <div class="container-fluid bg-dark">    
-            
+
+
+        <div class="bg-dark py-2 text-white">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 text-center">
+                        <h4>Practicas realizadas en esta pagina:</h4>
+                        <ul class="navbar-nav navbar navbar-expand-lg">
+                            <li class="px-5">#1</li>
+                            <li class="px-5">#3</li>
+                            <li class="px-5">#4</li>
+                            <li class="px-5">#5</li>
+                            <li class="px-5">#7</li>
+                            <li class="px-5">#8</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
-        
-        
-        
-        
-        
-        
+
+
+
+
+
+
+
+
+
+
+
         <script src="js/jquery.js"></script>
-        <script src="js/bootstrap.min.js"></script>
         <script src="js/popper.js"></script>
+        <script src="js/bootstrap.min.js"></script>
     </footer>
+
 
 </body>
 
